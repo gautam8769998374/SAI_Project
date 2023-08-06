@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import Contact from "./Contact";
 
 const Navbar = () => {
 
@@ -21,14 +22,14 @@ const Navbar = () => {
                   </Link>
                   <div class="flex items-center">
                       <a href="tel:+91-9836913164" class="mr-6 text-sm  text-gray-500 dark:text-white hover:underline">+91-9836913164 (India),  +1-917-730-4660 (U.S.)</a>
-                      <a href="#" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Contect Us</a>
+                      <Link href="/contact" className="text-sm hover:underline font-semibold text-primary text-blue-700">Contact Us</Link>
                   </div>
               </div>
           </nav> 
 
 
 
-          <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+          <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700  border-b-2">
               <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
               
            <button 
@@ -51,7 +52,7 @@ const Navbar = () => {
           id="navbar-multi-level"
           >
             <ul 
-              class="flex flex-col font-medium p-4 md:p-0 mt-4 mb-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 mb-2 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
             >
               <li>
                   <a 
