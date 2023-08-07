@@ -1,36 +1,24 @@
+import { Benefit, ClientsTestimonials, HeroSection, IndustryReport, LatestPublication, Solutions, WhyChooseUs } from "@/components";
+
+
+
 const Home = () => {
   return (
-    <section className="flex-start flex-col lg:px-20 py-6 px-5 mb-16">
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
-      <h1>Categories</h1> 
-      <h1>Posts </h1>
-      <h1>LoadMore </h1>
+    <section className="flex-start flex-col m-3 p-3 mb-16">
+              <HeroSection/>
+
+              <Solutions/>
+        
+              <IndustryReport/> 
+         
+             <LatestPublication/> 
+          
+              <Benefit/>
+          
+             <ClientsTestimonials/>
+          
+             <WhyChooseUs/>
+          
     </section>
   )
 }
