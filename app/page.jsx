@@ -1,4 +1,4 @@
-import { Benefit, ClientsTestimonials, HeroSection, IndustryReport, LatestPublication, Solutions, WhyChooseUs } from "@/components";
+import { Benefit, ClientsTestimonials, HeroSection, IndustryReport, LatestPublication, Solutions, WhyChooseUs } from "@/src/components";
 
 
 

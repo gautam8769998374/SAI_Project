@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import { BankingLinks, ChemicalLinks, DefenceLinks, IR_Links, LifeScienceLinks, TechLinks } from '.'
 
+import { BankingLinks, ChemicalLinks, DefenceLinks, IR_Links, LifeScienceLinks, TechLinks } from '.'
+import Button from './Button';
 
 const IndustryReport = () => {
   return (
@@ -17,11 +18,7 @@ const IndustryReport = () => {
                  </div>
                 <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">From the latest market research reports on the consumer-oriented sector, you can get a deeper insight of the consumer goods industry and know about its various market segmentations in details.</p>
                 <IR_Links/>
-                <a href='/' class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                   <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                     View Reports 
-                  </span>
-                </a>
+                <Button label="View Reports"/>
             </div>
             <div class="bg-gray-50 border-gray-200 rounded-lg p-8 md:p-12">
                 <div className='flex justify-center gap-5'>
@@ -34,11 +31,7 @@ const IndustryReport = () => {
                  </div>
                  <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Find the latest market reports and trends in the information technology & market. Check out in-depth market research analysis and global market insights of its various verticals.</p>
                   <TechLinks/>
-                <a href='/contact' class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                       View Reports 
-                    </span>
-                </a>
+                  <Button label="View Reports"/>
             </div>
 
             <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
@@ -56,11 +49,7 @@ const IndustryReport = () => {
                  </div>
                 <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">The aerospace & defense industry research sector is involved in development of various military equipment such as weapon system, control systems, components, and others. Check global market insight.</p>
                 <DefenceLinks/>
-                <a href='/'  class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                   <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                     View Reports 
-                  </span>
-                </a>
+                <Button label="View Reports"/>
             </div>
             <div class="bg-gray-50 border-gray-200 rounded-lg p-8 md:p-12">
                 <div className='flex justify-center gap-5'>
@@ -73,13 +62,8 @@ const IndustryReport = () => {
                  </div>
                  <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">The life science industry & solutions is a very diversified industry which consists of pharmaceuticals, biotechnology, medical devices, and healthcare. Check out the latest market research analysis of the biotechnology, healthcare, and pharmaceutical industry.</p>
                   <LifeScienceLinks/>
-                <a href='/' class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                       View Reports 
-                    </span>
-                </a>
+                  <Button label="View Reports"/>
             </div>
-
 
             <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
                 <div className='flex justify-center gap-5'>
@@ -87,24 +71,15 @@ const IndustryReport = () => {
                  </div>
                 <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">The chemicals, materials and energy industry market are growing with the increasing usage of its raw materials by various end-user industries. Find out more through the chemicals, materials and energy industry market research, in-depth market analysis, market forecast and more.</p>
                 <ChemicalLinks/>
-                <a href='/' class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                   <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                     View Reports 
-                  </span>
-                </a>
+                <Button label="View Reports"/>
             </div>
             <div class="bg-gray-50 border-gray-200 rounded-lg p-8 md:p-12">
                 <div className='flex justify-center gap-5'>
-                    
-                      <a href='#' class="text-gray-900 text-3xl font-extrabold mb-4"> Banking, Financial Services And Insurance Sector </a>
+                  <a href='#' class="text-gray-900 text-3xl font-extrabold mb-4"> Banking, Financial Services And Insurance Sector </a>
                  </div>
                  <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">According to the industry research firm the demand of integrated solution is driving the market of BFSI along with the growing preferences towards common security platforms which is reducing the rate and difficulties of financial services. More business market research and analysis here.</p>
                   <BankingLinks/>
-                <a href='/' class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white  focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                       View Reports 
-                    </span>
-                </a>
+                  <Button label="View Reports"/>
             </div>            
         </div>
     </section>
